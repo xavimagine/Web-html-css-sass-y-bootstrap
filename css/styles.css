@@ -43,4 +43,46 @@
   border-radius: 100%;
 }
 
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .tittle {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: rgba(136, 136, 136, 0.5333333333);
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #0075FF;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .tittle {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=styles.css.map */

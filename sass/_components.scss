@@ -57,18 +57,44 @@ $color-main: #0075FF;
 }
 
 .feature{
+    display: flex;
+    flex-direction: column;
     .icon{
-
+        color: $color-main;
+        font-size: 10rem;
+        text-align: center;
     }
     .description{
         .tittle{
-
+            font-size: 2rem;
+            text-align: center;
         }
         .text{
-            
+        color: #8888;
+        font-weight: 600;
+        text-align: center;
         }
     }
     .cta{
-
+        color: $color-main;
+        font-weight: 600;
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
+.icon-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        color: $color-main;
+        font-size: 10rem;
+        padding: 0;
+    }
+    .tittle{
+        margin-top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 }
