@@ -37,6 +37,7 @@
   display: inline;
   font-size: 0.75rem;
   font-weight: 600;
+  margin-left: 0.9rem;
 }
 .main-menu li a {
   color: black;
@@ -112,6 +113,25 @@
 
 .logo img {
   max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  align-items: center;
+  max-width: 760px;
+  margin: auto;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .home-tittle {
+  width: 20rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=styles.css.map */
