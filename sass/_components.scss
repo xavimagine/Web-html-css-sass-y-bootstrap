@@ -1,0 +1,74 @@
+$color-main: #0075FF;
+@mixin btn-base {
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+}
+@mixin btn-sm-modify {
+    font-size: 0.75rem;
+    padding: 0.1rem 1 rem;
+}
+
+
+.btn-main{
+    background-color: $color-main;
+    color: white;
+    border: solid 1px $color-main;
+    @include btn-base();
+    &:hover{
+        background-color: white;
+        color: $color-main;
+    }
+    &-s{
+        @extend .btn-main;
+        @include btn-sm-modify();
+    }
+}
+
+.btn-sec{
+    @include btn-base();
+    color: black;
+    background-color: transparent;
+    border: none;
+    &:hover{
+        color: rgba(81, 81, 81, 0.533);
+    }
+    &-s{
+        @extend .btn-sec;
+        @include btn-sm-modify();
+    }
+}
+
+.main-menu{
+    li{
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+    }
+}
+
+.icon-sm{
+    i{
+        font-size: 0.75rem;
+        color: $color-main;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.373);  
+        padding: 0.1rem 0.25rem;
+        border-radius: 100%;
+    }
+}
+
+.feature{
+    .icon{
+
+    }
+    .description{
+        .tittle{
+
+        }
+        .text{
+            
+        }
+    }
+    .cta{
+
+    }
+}

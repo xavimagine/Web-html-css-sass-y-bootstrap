@@ -1,0 +1,46 @@
+.btn-main, .btn-main-s {
+  background-color: #0075FF;
+  color: white;
+  border: solid 1px #0075FF;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075FF;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1 rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: rgba(81, 81, 81, 0.533);
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1 rem;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 0.5rem;
+}
+
+.icon-sm i {
+  font-size: 0.75rem;
+  color: #0075FF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.373);
+  padding: 0.1rem 0.25rem;
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
