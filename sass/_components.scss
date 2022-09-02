@@ -45,7 +45,7 @@ $color-main: #0075FF;
         display: inline;
         font-size: 0.75rem;
         font-weight: 600;
-        margin-left: 0.9rem;
+        margin-right: 2rem;
         a{
             color: black;
             text-decoration: none;
@@ -59,10 +59,10 @@ $color-main: #0075FF;
 
 .icon-sm{
     i{
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         color: $color-main;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.373);  
-        padding: 0.1rem 0.25rem;
+        padding: 0.4rem 0.65rem;
         border-radius: 100%;
     }
 }
