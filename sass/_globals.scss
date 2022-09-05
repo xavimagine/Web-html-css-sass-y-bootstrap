@@ -38,6 +38,7 @@
             font-size: 3rem;
             font-weight: 400;
         }
+    
     }
 }
 .sec-features{
@@ -84,5 +85,16 @@
                 max-width: 30rem;
             }
         }
+    }
+}
+
+.sec-benefits{
+    border-top:  1px solid #ddd;
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .benefit-cards{
+        width: 100%;
+        padding: 0.2rem 2rem 2rem;
     }
 }
