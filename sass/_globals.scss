@@ -140,3 +140,20 @@
         }
     }
 }
+.sec-footer-cta{
+    background-color: components.$color-footer;
+    padding: 5rem;
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    .footer-cta{
+        width: 50%;
+        .cta-tittle{
+            font-size: 2rem;
+        }
+        .cta-description{
+            font-size: 1.1rem;
+        }
+    }
+   
+}
