@@ -102,6 +102,8 @@
 .sec-kpis{
     background-color: components.$color-main;
     color: white;
+    align-items: center;
+    height: 10rem;
     width: 100%;
     padding: 4 rem;
 
@@ -119,4 +121,22 @@
             color: #ffffffaa;
         }
         }
+}
+
+.sec-onboarding{
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .steps{
+        padding: 0 7rem 5rem 7rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        .step-separator{
+            flex: 1;
+           border-top: 2px solid #ddd;
+           margin: 0 1rem;
+        }
+    }
 }
