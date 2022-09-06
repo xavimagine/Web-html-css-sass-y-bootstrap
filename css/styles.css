@@ -100,6 +100,10 @@
   font-weight: 600;
 }
 
+html {
+  min-width: 100vw;
+}
+
 .body {
   padding: 0;
   margin: 0;
@@ -125,6 +129,7 @@
   padding: 3rem;
   max-width: 992;
   margin: auto;
+  width: 65%;
 }
 .sec-home .home-cta {
   flex: 1;
@@ -136,6 +141,12 @@
   width: 20rem;
   font-size: 3rem;
   font-weight: 400;
+}
+.sec-home .home-cta .home-description {
+  width: 300px;
+}
+.sec-home .home-cta .lead-magnet .input-col {
+  max-width: 200px;
 }
 
 .sec-features, .sec-onboarding .intro, .sec-benefits .intro {
@@ -198,9 +209,8 @@
   background-color: #0075FF;
   color: white;
   align-items: center;
-  height: 10rem;
   width: 100%;
-  padding: 4 rem;
+  padding: 5 rem;
 }
 .sec-kpis .kpi {
   display: flex;
@@ -244,6 +254,32 @@
 }
 .sec-footer-cta .footer-cta .cta-description {
   font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .sec-onboarding .steps {
+    flex-direction: column;
+  }
+  .sec-onboarding .steps .icon-desc {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+  .sec-benefits .intro {
+    text-align: center h3;
+    text-align-font-size: 2rem;
+  }
+  .sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
+    font-size: 2rem;
+  }
+  .sec-features .intro p, .sec-benefits .intro .intro p, .sec-onboarding .intro .intro p {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

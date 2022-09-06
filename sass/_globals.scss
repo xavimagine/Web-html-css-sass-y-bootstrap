@@ -4,7 +4,10 @@
     padding: 3rem;
     max-width: 992;
     margin: auto;
-    
+}
+
+html{
+    min-width: 100vw;
 }
 .body{
     padding: 0;
@@ -27,7 +30,7 @@
     display: flex;
     align-items: center;
     @include section-display();
-    
+    width: 65%;
     .home-cta{
         flex:1;
         .cta-text{
@@ -37,6 +40,14 @@
             width: 20rem;
             font-size: 3rem;
             font-weight: 400;
+        }
+        .home-description{
+            width: 300px;
+        }
+        .lead-magnet{
+            .input-col{
+                max-width: 200px
+            }
         }
     
     }
@@ -103,9 +114,8 @@
     background-color: components.$color-main;
     color: white;
     align-items: center;
-    height: 10rem;
     width: 100%;
-    padding: 4 rem;
+    padding: 5 rem;
 
     .kpi{
         display: flex;
@@ -155,5 +165,41 @@
             font-size: 1.1rem;
         }
     }
-   
+}
+
+@media (max-width:768px){
+    .sec-onboarding{
+        .steps{
+            flex-direction: column;
+            .icon-desc{
+                text-align: center;
+            }
+        }
+    }
+
+    .sec-footer-cta{
+        background-image: none;
+        .footer-cta{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .sec-benefits{
+        .intro{
+            text-align: center
+            h3{
+                font-size: 2rem ;
+            }
+        } 
+    }
+    .sec-features{
+        .intro{
+            h3{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem
+            }
+        }
+    }
 }
