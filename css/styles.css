@@ -263,6 +263,9 @@ html {
   .sec-onboarding .steps .icon-desc {
     text-align: center;
   }
+  .sec-onboarding .steps .icon-desc .bi {
+    font-size: 5rem;
+  }
   .sec-footer-cta {
     background-image: none;
   }
@@ -274,11 +277,17 @@ html {
     text-align: center h3;
     text-align-font-size: 2rem;
   }
+  .sec-benefits .benefit-cards .bi {
+    font-size: 5rem;
+  }
   .sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
     font-size: 2rem;
   }
   .sec-features .intro p, .sec-benefits .intro .intro p, .sec-onboarding .intro .intro p {
     font-size: 1rem;
+  }
+  .sec-home {
+    width: 100%;
   }
 }
 

@@ -173,6 +173,9 @@ html{
             flex-direction: column;
             .icon-desc{
                 text-align: center;
+                .bi{
+                    font-size: 5rem;
+                }
             }
         }
     }
@@ -190,7 +193,12 @@ html{
             h3{
                 font-size: 2rem ;
             }
-        } 
+        }
+        .benefit-cards{
+            .bi{
+                font-size: 5rem;
+            }
+        }
     }
     .sec-features{
         .intro{
@@ -201,5 +209,8 @@ html{
                 font-size: 1rem
             }
         }
+    }
+    .sec-home{
+        width: 100%;
     }
 }
